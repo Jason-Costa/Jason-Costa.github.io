@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tribute to Muhammad Ali</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Tribute to Muhammad Ali</h1>
+  </header>
+  <main>
+    <div id="image-container">
+      <img src="muhammad-ali.jpg" alt="Muhammad Ali">
+    </div>
+    <div id="content">
+      <h2>About Muhammad Ali</h2>
+      <p>
+        Muhammad Ali, born Cassius Marcellus Clay Jr. (January 17, 1942 – June 3, 2016), was an American professional boxer,
+        activist, and philanthropist. He is widely regarded as one of the most significant and celebrated sports figures of
+        the 20th century.
+      </p>
+      <p>
+        Ali was known for his incredible boxing skills, agility, and charisma both inside and outside the ring. He won the
+        world heavyweight championship three times and became the first fighter to capture the title three times. Ali's
+        fights against his rivals, such as Joe Frazier and George Foreman, are legendary and have become part of boxing
+        history.
+      </p>
+      <p>
+        Apart from his boxing career, Ali was also an influential civil rights activist and spoke out against racial
+        inequality and injustice. He famously refused to be drafted into the military during the Vietnam War, citing his
+        religious beliefs and opposition to the war. His activism and outspokenness made him an icon for many people around
+        the world.
+      </p>
+      <p>
+        Muhammad Ali passed away on June 3, 2016, but his legacy continues to inspire and resonate with people of all ages.
+        He will always be remembered as "The Greatest."
+      </p>
+    </div>
+  </main>
+  <footer>
+    <p>Created by Your Name</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
