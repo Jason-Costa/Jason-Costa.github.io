@@ -57,6 +57,12 @@ header {
 header {
   line-height: 1.5;
 }
+
+figure {
+  text-align: center;
+  margin: center;
+  padding: 0; 
+}
 .tag {
   background-color: #da6363;
   color: black;
