@@ -18,6 +18,8 @@ body {
   button {
     margin-top: 10px;
     padding: 5px 10px;
+    font-size: 1.0em;
+    font-family: 'Roboto', sans-serif;
   }
 
   #result {
@@ -26,6 +28,10 @@ body {
     font-size: 20px;
   }
 
+  input[type='number']{
+    width: 150px;
+    height: 30px;
+} 
 
   /* css from profile page */
 
