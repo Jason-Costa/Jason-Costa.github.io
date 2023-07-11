@@ -7,6 +7,5 @@ function calculate() {
     result = 50 + Math.floor((result - 50) / 2);
   }
 
-  document.getElementById("result").textContent = result;
-  document.getElementById("result-container").style.display = "block";
+  document.getElementById("result").innerText = "Result: " + result;
 }
