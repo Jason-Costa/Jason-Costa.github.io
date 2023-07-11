@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    background: #f4b268;
+      }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.3em;
+    max-width: 1200px;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  /* css from profile page */
+
+   header {
+    text-align: center;
+    /* When an image is added, I might want to make background like this...
+    background: no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 60px; 
+    */
+  }
+  header {
+    line-height: 1.5;
+  }
+  footer {
+    font-size: 1.3em;
+    max-width: 1200px;
+    margin: 40px auto;
+  }   
+       
+  /* Styles for larger screens */
+  @media screen and (min-width: 720px) {
+    
+    .flex {
+        display: -ms-flexbox;      
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 470px;
+    }
+  
+     footer {
+        font-size: 1.0em;
+        max-width: 1200px;
+        margin: 40px auto;
+      }
+  }
