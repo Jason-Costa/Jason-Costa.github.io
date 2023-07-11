@@ -7,5 +7,5 @@ function calculate() {
     result = 50 + Math.floor((result - 50) / 2);
   }
 
-  document.getElementById("result").innerText = "Result: " + result;
+  document.getElementById("result").innerText = "Your Diminishing Returns Result is: " + result;
 }
