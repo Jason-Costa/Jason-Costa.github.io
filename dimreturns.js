@@ -1,12 +1,12 @@
 function calculate() {
-  var input1 = parseInt(document.getElementById("input1").value);
-  var input2 = parseInt(document.getElementById("input2").value);
+  var input = parseInt(document.getElementById("input").value);
 
-  var result = input1 + input2;
+  var result = input;
 
   if (result > 50) {
-    result = result / 2;
+    result = 50 + Math.floor((result - 50) / 2);
   }
 
-  document.getElementById("result").textContent = "Result: " + result;
+  document.getElementById("result").textContent = result;
+  document.getElementById("result-container").style.display = "block";
 }
