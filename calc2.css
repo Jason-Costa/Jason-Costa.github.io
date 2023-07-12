@@ -1,0 +1,67 @@
+    /* Styling for the calculator container */
+    .calculator {
+      text-align: center;
+      border-radius: 1em;
+      height: 380px;
+      width: 400px;
+      margin: auto;
+      border: 2px solid #222121;
+      padding: 10px;
+      background-color: rgba(81, 76, 79, 0.8);
+      font-family: Arial, sans-serif;
+      box-shadow: rgba(90, 16, 54, 0.8) 0px 10px 20px, rgba(81, 76, 79, 0.8) 0px 6px 6px;
+    }
+    
+    /* Styling for the display area */
+    .calculator input[type="text"] {
+    background-color: #dcdbe1;
+    padding-right: 5px;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 95%;
+    height: 15%;
+    text-align: right;
+    font-size: 22px;
+
+    }
+    
+    /* Styling for the calculator buttons */
+    .calculator input[type="button"] {
+      width: 15%;
+      height: 15%;
+      padding: 10px;
+      margin: 2px;
+      font-size: 19px;
+      background-color: lightgray;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .calculator input[type="button"]:hover {
+      background-color: #f0f0f0;
+    }
+    
+    /* Styling for the equals button */
+    .calculator input[type="button"].equals {
+      width: 100%;
+      background-color: #4CAF50;
+      color: #fff;
+      border-color: #4CAF50;
+    }
+    
+    .calculator input[type="button"].equals:hover {
+      background-color: #45a049;
+    }
+    
+    /* Styling for the clear button */
+    .calculator input[type="button"].clear {
+      background-color: #f44336;
+      color: #fff;
+      border-color: #f44336;
+    }
+    
+    .calculator input[type="button"].clear:hover {
+      background-color: #d32f2f;
+    }
