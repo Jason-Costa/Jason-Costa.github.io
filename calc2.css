@@ -1,9 +1,11 @@
+  
     /* Styling for the calculator container */
     .calculator {
       text-align: center;
       border-radius: 1em;
       height: 380px;
-      width: 400px;
+      width: 95%;
+      max-width: 400px;
       margin: auto;
       border: 2px solid #020a06;
       padding: 10px;
