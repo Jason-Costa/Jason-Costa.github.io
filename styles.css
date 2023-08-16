@@ -24,7 +24,7 @@ a:hover {
 /* Section Styles */
 
 .name {
-  animation: redshadow 4s ease 2s infinite reverse;
+  animation: redshadow 2s ease 2s infinite reverse;
 }
 
 @keyframes redshadow {
