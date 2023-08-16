@@ -6,6 +6,22 @@ body {
   color: #222;
   background: #a2907b;
 }
+header {
+  background: url('ali-liston.jpg');
+  background-size: cover;
+  overflow: visible;
+  padding-top: 1px;
+  line-height: 1.0;
+  min-height: 470px;
+}
+
+h1 {
+   text-align: center;
+   position: relative;
+   top: 1%;
+   font-weight: 800;
+   font-size: 2em;
+  }
 
 a {
   text-decoration: none;
@@ -15,6 +31,9 @@ a {
 a:hover {
   color: #2c0899;
 }
+ main {
+    padding-top: 20px;
+  }
 
 .main-nav {
   width: 100%;
@@ -24,7 +43,14 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
+main p {
+    line-height: 1.6em;
+  }
+
 .nav {
+  max-width: 1200px;
+  padding: 0 30px;
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -48,17 +74,6 @@ a:hover {
   color: white
 }
 
-header {
-  text-align: center;
-  background: url('ali-liston.jpg');
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 1px;
-}
-header {
-  line-height: 1.5;
-}
-
 figure {
   margin-left: auto;
   margin-right: auto;
@@ -73,36 +88,16 @@ figure {
   display: table;
   margin: 10px auto;
 } 
-  .flex {
+.flex {
       display: flex; 
       max-width: 1200px;
       justify-content: space-around;
       margin: 0 auto;
   }
 
-  header {
-    min-height: 470px;
-  }
-
-  .nav {
-    max-width: 1200px;
-    padding: 0 30px;
-  }
-
-
-  main {
-    padding-top: 20px;
-  }
-
-  main p {
-    line-height: 1.6em;
-  }
-
-  footer {
+footer {
     padding-top: 1.5rem;
     font-size: 1em;
     max-width: 1200px;
     margin: 40px auto;
   }
-
-
