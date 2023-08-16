@@ -23,6 +23,25 @@ a:hover {
 
 /* Section Styles */
 
+.name {
+  animation: redshadow 4s ease 2s infinite reverse;
+}
+
+@keyframes redshadow {
+  40% {
+    text-shadow: 2px 4px 0px red;
+  }
+  50% {
+    text-shadow: 2px 4px 0px rosybrown;
+  }
+  60% {
+    text-shadow: 2px 4px 0px maroon;
+  }
+  70% {
+    text-shadow: 2px 4px 0px firebrick;
+  }
+  
+}
 .main-nav {
   width: 100%;
   background: black;
@@ -40,7 +59,7 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.nav .fullname {
     display: block;
     margin-right: auto;
     color: white;
