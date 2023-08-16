@@ -31,9 +31,14 @@ a {
 a:hover {
   color: #2c0899;
 }
- main {
+ 
+main {
     padding-top: 20px;
   }
+
+#content {
+  width: 25rem;
+}
 
 .main-nav {
   width: 100%;
