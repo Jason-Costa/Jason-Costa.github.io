@@ -37,7 +37,11 @@ main {
   }
 
 #content {
-  width: 25rem;
+  min-width: 25rem;
+  display: flex; 
+  max-width: 60rem;
+  margin: 0 auto;
+  flex-direction: column
 }
 
 .main-nav {
