@@ -48,7 +48,7 @@ body {
     line-height: 1.5;
   }
   footer {
-    font-size: 1.3em;
+    font-size: 1.0rem;
     max-width: 1200px;
     margin: 40px auto;
   }   
@@ -68,10 +68,4 @@ body {
     header {
       min-height: 470px;
     }
-  
-     footer {
-        font-size: 1.0em;
-        max-width: 1200px;
-        margin: 40px auto;
-      }
-  }
+}
